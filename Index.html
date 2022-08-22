@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/43a95b333e.js" crossorigin="anonymous"></script>
+    <title>Hashnode.com</title>
+</head>
+<link rel="stylesheet" href="Index.css">
+<body>
+
+
+
+
+    <!-- search nav bar -->
+    <section class="AAA">
+        <div>
+           <img id="AAB" src="data:image/png;base64,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" data-deferred="1" elementtiming="smtr" class="rg_i Q4LuWd" jsname="Q4LuWd" width="180" height="180" alt="Hashnode Brand Resources - Logos and other media files" data-atf="true" data-iml="1741.5">
+        </div>
+        <h1 id="AAC">
+            hashnode
+        </h1>
+        <div class="divsea">
+            <div>
+                <svg id="AAD" class="css-egedf7" viewBox="0 0 512 512"><path fill="currentColor" d="M507.3 484.7 365.8 343.2c31.2-36.4 49.3-83.5 49.3-135.2 0-114.9-93.13-208-208-208S0 93.13 0 208s93.12 208 207.1 208c51.68 0 98.85-18.96 135.2-50.15l141.5 141.5c4 3.05 8.1 4.65 12.2 4.65s8.188-1.562 11.31-4.688c6.29-6.212 6.29-16.412-.01-22.612zM208 384c-97.9 0-176-79-176-176S110.1 32 208 32s176 78.1 176 176-79 176-176 176z"></path></svg>
+            </div>
+            <input type="text" placeholder="Search for tags, people, articles, and many more" id="AAE">
+            <div>
+             <img id="slashimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpvreR1KvU895CsztKug0Dhc-S2BRfUywxR9Qd_AySgjRN7lihl6KjDnzf-HVQ0nX3Q40&amp;usqp=CAU" elementtiming="smtr" class="rg_i Q4LuWd" jsname="Q4LuWd" width="188" height="188" alt="Black-on-White Dash Symbol Reflective Label - 2 Sizes - CS436532" data-noaft="1">
+            </div>
+        </div>
+        <div class="divwrt">
+            <div>
+                <i class="fa fa-pen"></i>
+            </div>
+            <button>
+                Write
+            </button>
+            <div>
+                <i class="fa-solid fa-sort-down"></i>
+            </div>
+        </div>
+        <div>
+            <svg  id="shareic" class="css-17mdxl4" viewBox="0 0 384 512"><path d="M384 144c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 39.2 28.2 71.8 65.5 78.7-.8 17.2-5 30.4-12.7 40-17.5 21.8-53.1 25.2-90.7 28.7-28.2 2.6-57.4 5.4-80.4 16.9-3.4 1.7-6.7 3.6-9.7 5.7V158.4c36.5-7.4 64-39.7 64-78.4 0-44.2-35.8-80-80-80S0 35.8 0 80c0 38.7 27.5 71 64 78.4v195.2C27.5 361 0 393.3 0 432c0 44.2 35.8 80 80 80s80-35.8 80-80c0-36.9-24.9-67.9-58.9-77.2 5-9.6 12.3-14.6 19-18 17.5-8.8 42.5-11.2 68.9-13.7 42.6-4 86.7-8.1 112.7-40.5 12.4-15.5 19-35.5 19.8-60.7C357.3 214 384 182.1 384 144zM32 80c0-26.5 21.5-48 48-48s48 21.5 48 48-21.5 48-48 48-48-21.5-48-48zm96 352c0 26.5-21.5 48-48 48s-48-21.5-48-48c0-26.4 21.4-47.9 47.8-48h.6c26.3.2 47.6 21.7 47.6 48zm187.8-241.5L304 192c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48c0 22.4-15.4 41.2-36.2 46.5z"></path></svg>
+        </div>
+        <div>
+            <svg id="moonic" class="css-17mdxl4" viewBox="0 0 512 512"><path d="M448.964 365.617C348.188 384.809 255.14 307.765 255.14 205.419c0-58.893 31.561-112.832 82.574-141.862 25.83-14.7 19.333-53.859-10.015-59.28A258.114 258.114 0 00280.947 0c-141.334 0-256 114.546-256 256 0 141.334 114.547 256 256 256 78.931 0 151.079-35.924 198.85-94.783 18.846-23.22-1.706-57.149-30.833-51.6zM280.947 480c-123.712 0-224-100.288-224-224s100.288-224 224-224c13.984 0 27.665 1.294 40.94 3.745-58.972 33.56-98.747 96.969-98.747 169.674 0 122.606 111.613 214.523 231.81 191.632C413.881 447.653 351.196 480 280.947 480z"></path></svg>
+        </div>
+        <div>
+            <svg id="alarmic" class="css-17mdxl4" viewBox="0 0 448 512"><path d="M224 480c-17.66 0-32-14.38-32-32.03h-32c0 35.31 28.72 64.03 64 64.03s64-28.72 64-64.03h-32c0 17.65-14.34 32.03-32 32.03zm209.38-145.19c-27.96-26.62-49.34-54.48-49.34-148.91 0-79.59-63.39-144.5-144.04-152.35V16c0-8.84-7.16-16-16-16s-16 7.16-16 16v17.56C127.35 41.41 63.96 106.31 63.96 185.9c0 94.42-21.39 122.29-49.35 148.91-13.97 13.3-18.38 33.41-11.25 51.23C10.64 404.24 28.16 416 48 416h352c19.84 0 37.36-11.77 44.64-29.97 7.13-17.82 2.71-37.92-11.26-51.22zM400 384H48c-14.23 0-21.34-16.47-11.32-26.01 34.86-33.19 59.28-70.34 59.28-172.08C95.96 118.53 153.23 64 224 64c70.76 0 128.04 54.52 128.04 121.9 0 101.35 24.21 138.7 59.28 172.08C421.38 367.57 414.17 384 400 384z"></path></svg>
+        </div>
+        <div>
+           <img id="headic" src="headic.webp" alt="">
+        </div>
+        
+    </section>
+
+
+
+
+
+
+    
+    <main>
+        <section class="sidebar">
+
+            <div class="divfeed">
+                <svg id="teleph" class="css-1a22yi8" viewBox="0 0 512 512"><path d="M464 32H144c-26.5 0-48 21.53-48 48v336c0 17.66-14.36 32-32 32s-32-14.34-32-32V112c0-8.8-7.16-16-16-16s-16 7.2-16 16v304c0 35.28 28.7 64 64 64h368c44.11 0 80-35.88 80-80V80c0-26.47-21.5-48-48-48zm16 368c0 26.47-21.53 48-48 48H119.4c5.5-9.4 8.6-20.3 8.6-32V80c0-8.81 7.2-16 16-16h320c8.8 0 16 7.19 16 16v320zm-208-96h-96c-8.8 0-16 7.2-16 16s7.156 16 16 16h96c8.844 0 16-7.156 16-16s-7.2-16-16-16zm160 0h-96c-8.8 0-16 7.2-16 16s7.156 16 16 16h96c8.844 0 16-7.156 16-16s-7.2-16-16-16zm-160 64h-96c-8.8 0-16 7.2-16 16s7.156 16 16 16h96c8.844 0 16-7.156 16-16s-7.2-16-16-16zm160 0h-96c-8.844 0-16 7.156-16 16s7.156 16 16 16h96c8.844 0 16-7.156 16-16s-7.2-16-16-16zM416 96H192c-17.7 0-32 14.3-32 32v96c0 17.67 14.33 32 32 32h224c17.67 0 32-14.33 32-32v-96c0-17.7-14.3-32-32-32zm0 128H192v-96h224v96z"></path></svg>
+                <div id="myfeed">
+                   My Feed
+                </div>
+            </div>
+
+            <div class="divfeed">
+                <svg id="teleph" class="css-1a22yi8" viewBox="0 0 512 512"><path fill="currentColor" d="M232 256c0-13.3 10.7-24 24-24s24 10.7 24 24-10.7 24-24 24-24-10.7-24-24zm116.6-133.1c25-8.3 48.8 15.5 40.5 40.5l-48.9 146.5c-4.7 14.3-16 25.6-30.3 30.3l-146.5 48.9c-25 8.3-48.8-15.5-40.5-40.5l48.9-146.5c4.7-14.3 16-25.6 30.3-30.3l146.5-48.9zm10.1 30.4-146.5 48.8c-4.7 1.6-8.5 5.4-10.1 10.1l-48.8 146.5 146.5-48.8c4.7-1.6 8.5-5.4 10.1-10.1l48.8-146.5zM0 256C0 114.6 114.6 0 256 0s256 114.6 256 256-114.6 256-256 256S0 397.4 0 256zm256 224c123.7 0 224-100.3 224-224S379.7 32 256 32 32 132.3 32 256s100.3 224 224 224z"></path></svg>
+                <div id="myfeed">
+                    Explore
+                </div>
+            </div>
+            <div class="divfeed">
+                <svg id="teleph" class="css-1a22yi8" viewBox="0 0 384 512"><path fill="currentColor" d="M365.3 125.3 258.8 18.8C246.7 6.742 230.5 0 213.5 0H64C28.65 0 0 28.65 0 64l.006 384c0 35.35 28.65 64 64 64H320c35.35 0 64-28.65 64-64V170.5c0-17-6.7-33.2-18.7-45.2zM224 34.08c4.477 1.566 8.666 3.846 12.12 7.299l106.5 106.5c3.48 3.421 5.78 7.621 7.28 12.121H240c-8.8 0-16-7.2-16-16V34.08zM352 448c0 17.64-14.36 32-32 32H64c-17.64 0-32-14.36-32-32V64c0-17.64 14.36-32 32-32h128v112c0 26.5 21.5 48 48 48h112v256zM96.82 360.1a15.883 15.883 0 0 0-4.342 8.113l-12.16 60.79c-2.217 11.11 7.574 20.91 18.69 18.68l60.79-12.15a15.867 15.867 0 0 0 8.109-4.344l122.2-122.2c7.559-7.555 12.82-17.37 13.76-28.02 1.158-13.14-3.432-25.7-12.62-34.88l-8.172-8.176c-7.559-7.559-17.37-12.83-28.01-13.78-13.14-1.172-25.7 3.414-34.89 12.59L96.82 360.1zm51.98 45.2-32.72 6.539 6.543-32.71 86.22-86.23 26.18 26.18L148.8 405.3zm93.8-146.1c4.652-4.645 12.19-4.652 16.84.004l9.338 9.336c4.641 4.64 4.668 12.18-.004 16.84l-11.22 11.22-26.18-26.18L242.6 259.2z"></path></svg>
+                <div id="myfeed">
+                    Drafts
+                </div>
+            </div>
+
+            <div class="divfeed">
+                <svg id="teleph" class="css-1a22yi8" viewBox="0 0 448 512"><path fill="currentColor" d="M448 368V48c0-26.51-21.5-48-48-48H80C35.82 0 0 35.82 0 80v368c0 35.35 28.66 64 64 64h368c8.844 0 16-7.156 16-16s-7.2-16-16-16h-16v-66.95c18.6-6.65 32-24.25 32-45.05zM320 32v174.7l-54.9-43.2c-2-2.3-5.6-3.5-9.1-3.5s-7.062 1.172-10 3.5l-54 43.2V32h128zm64 448H64c-17.64 0-32-14.36-32-32s14.36-32 32-32h320v64zm16-96H64c-11.71 0-22.55 3.389-32 8.9V80c0-26.51 21.49-48 48-48h80v208c0 6.156 3.531 11.75 9.062 14.42 5.562 2.672 12.09 1.891 16.94-1.922L256 196.5l69.1 56.02c3.8 2.28 7.3 3.48 10.9 3.48 2.344 0 4.719-.516 6.938-1.578C348.5 251.8 352 246.2 352 240V32h48c8.8 0 16 7.16 16 16v320c0 8.8-7.2 16-16 16z"></path></svg>
+                <div id="myfeed">
+                    Bookmarks
+                </div>
+            </div>
+            <div class="divfeed">
+                <svg id="teleph" class="css-1a22yi8" viewBox="0 0 448 512"><path fill="currentColor" d="M75.89 85.29c-5.91-6.56-16.03-7.09-22.6-1.19-6.54 5.94-7.06 16-1.18 22.6L186.5 256 52.1 405.3c-5.596 6.23-5.73 16.35 1.188 22.62 6.562 5.906 16.69 5.375 22.59-1.188l144-159.1a16.06 16.06 0 0 0 0-21.44L75.89 85.29zM411.9 245.3l-144-160.01c-5.906-6.562-16.03-7.094-22.59-1.188-6.549 5.938-7.064 16.03-1.188 22.62L378.5 256 244.1 405.3c-5.596 6.23-5.73 16.35 1.188 22.62 6.562 5.906 16.69 5.375 22.59-1.188l144-159.1c5.522-7.032 5.522-16.232.022-22.332z"></path></svg>
+                <div id="myfeed">
+                    More
+                </div>
+            </div>
+
+            <hr id="hr">
+
+            <div class="hash2021">
+                <div id="hash2022"> © 2022 HASHNODE </div>
+                <div id="hash2023">
+                    <span><i id="bird" class="fa-brands fa-twitter"></i></span>
+                    <span><i id="bird" class="fa-brands fa-linkedin"></i></span>
+                    <span><i id="bird" class="fa-brands fa-instagram"></i></span>
+                    <span><i id="bird" class="fa-brands fa-discord"></i></span>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+
+        <section class="mainbar">
+
+
+
+              <!-- greenbar -->
+            <div id="greenbar">
+                <div id="spangreen">
+                    ✨ Introducing <a href="#"> Hashnode for Teams:</a> 
+                    invite your team and publish together. Optimized for devtools, engineering, and open-source teams.
+                </div>
+            </div>
+
+
+
+
+               <!-- Home bar -->
+            <div class="homebar">
+                <div id="smahomebar">
+                    <b id="bhome">Home</b>
+                    <b id="techtext">
+                     for tech <br> writers and <br> readers
+                    </b>
+                    <h4 id="hfour">
+                         The hassle-free bloggig platform for engineers, <br> thought-leaders, and the dev community!
+                    </h4>
+                    <h3 id="hthree">
+                         Own Your Content . Share ideas
+                    </h3>
+                    <div class="dbtton">
+                        <button id="buttonhome">
+                            Get started - it's free
+                        </button>
+                        <img id="imgline" alt="background strip" src="https://cdn.hashnode.com/res/hashnode/image/upload/v1643231557989/WC495Po6m2.png?auto=compress" class="css-1082qq3">
+                     </div>
+                </div>
+                <div id="dimgbg">
+                    <img id="bgimg" src="bgimg.webp" alt="">
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+              <!-- First container -->
+            <div class="fristcont">
+               <div class="dpic">
+                  <div>
+                    <img id="fristcomma" src="comma.png" alt="">
+                  </div>
+                  <div>
+                      <img  id="dlars" src="Quincy Larson.jpg" alt="">
+                  </div>
+                  <q id="quote">
+                      You can start a dev blog in just a few seconds using Hashnode and then you can move that to your own  <br>
+                      domain if you get one later. They will even help distribute your articles on their platform. By far best place <br>
+                      to create a blog, imho.
+                  </q>
+                </div>
+                <div class="modqui">
+                    <h2 id="hfour2">
+                        Quincy Larson,
+                    </h>
+                    <strong id="strone">Founder,freeCodeCamp</strong> 
+                </div>
+                <button id="buttonjoin">
+                    join the community
+                </button>
+            </div>
+
+
+
+
+               <!-- Abia container -->
+            <div class="Abia">
+
+                <div id="Abialga1">
+                    <h4 id="Abialga1h4">
+                        OWN YOUR CONTENT
+                    </h4>
+                </div>
+
+                <div id="Abialga2">
+                    <h3 id="Abialga2h3">
+                        No Ads. No Paywall. <b id="Abialga2h3b">No Kidding</b>
+                    </h3>
+                </div>
+
+                <div id="Abialga3">
+                    <div id="Abialga3d1">
+                        <img id="Abialga3d1img" src="chain.webp" alt="">
+                        <h3 id="Abialga3h3">
+                            Blog on your personal <br> domain
+                        </h3>
+                        <h5 id="Abialga3h5">
+                            Map your custom domain in just seconds. <br> Serve your blog over HTTPS with no extra <br>
+                            configuration. Get a high performance, <br> secure, and fully-optimize dev blog that <br> delights your readers.
+                        </h5>
+                    </div>
+                    <div id="Abialga3d1">
+                        <img id="Abialga3d1img" src="target.webp" alt="">
+                        <h3 id="Abialga3h3">
+                            instantly find your <br> audience
+                        </h3>
+                        <h5 id="Abialga3h5">
+                             Every time you write an article, Hashnode <br> publishes it on your domain and shares it <br>
+                             with the dev community members on the homepage. The readers are directed to your <br>
+                             website to read and interact with your <br>content.
+                        </h5>
+                    </div>
+                    <div id="Abialga3d1">
+                        <img id="Abialga3d1img" src="Ads.webp" alt="">
+                        <h3 id="Abialga3h3">
+                            No annoying ads/pop- <br> ups
+                        </h3>
+                        <h5 id="Abialga3h5">
+                            Knowledge sharing on Hashnode is and will <br> always be completely free. Because we <br>
+                            value the relationship between you and your <br> readers, we won't show ads or pop-ups on <br>
+                            your articles
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+             <!-- Adamawa -->
+            <div class="Adamawa">
+                <div id="Yola">
+                    <div id="Yolalga1">
+                        KEY FEATURES
+                    </div>
+                    <div id="Yolalga2">
+                        <div id="Yolalga2d1">
+                            Everything you need to <br> start blogging as a <br> developer!
+                        </div>
+                        <img id="Yolalga2img" src="paperpencil.webp" alt="">
+                    </div>
+                    <div id="Yolalga3">
+                        <div id="Yolalga3d1">
+                            <div id="Yolalga3d1d1">
+                                <svg id="Yolalga3d1d1img" class="css-f8fru9" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                                <h3 id="Yolalga3d1d1h3">
+                                    Automatic GitHub Backup
+                                </h3>
+                            </div>
+                            <h4 id="Yolalga3d1h4">
+                                Every time you an article on your tech blog, a <br> markdown version of the post is pushed to your private <br>
+                                GitHub repo as a backup.
+                            </h4>
+                        </div>
+                        <div id="Yolalga3d1">
+                            <div id="Yolalga3d1d1">
+                                <svg id="Yolalga3d1d1img" class="css-f8fru9" viewBox="0 0 640 512"><path d="M593.8 59.1H46.2C20.7 59.1 0 79.8 0 105.2v301.5c0 25.5 20.7 46.2 46.2 46.2h547.7c25.5 0 46.2-20.7 46.1-46.1V105.2c0-25.4-20.7-46.1-46.2-46.1zM338.5 360.6H277v-120l-61.5 76.9-61.5-76.9v120H92.3V151.4h61.5l61.5 76.9 61.5-76.9h61.5v209.2zm135.3 3.1L381.5 256H443V151.4h61.5V256H566z"></path></svg>
+                                <h3 id="Yolalga3d1d1h3">
+                                     Write in Markdown
+                                </h3>
+                            </div>
+                            <h4 id="Yolalga3d1h4">
+                                Write your content in a distraction-free Markdown <br> editor with proper syntax highlighting and see live <br>
+                                previews instantly. Embed images, codes snippets, <br> tweets, and much more.
+
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div id="Yolalga3">
+                        <div id="Yolalga3d1">
+                            <div id="Yolalga3d1d1">
+                                <svg id="Yolalga3d1d1img" class="css-f8fru9" viewBox="0 0 24 24"><path d="M17.9 17.39c-.26-.8-1.01-1.39-1.9-1.39h-1v-3a1 1 0 0 0-1-1H8v-2h2a1 1 0 0 0 1-1V7h2a2 2 0 0 0 2-2v-.41c2.93 1.18 5 4.05 5 7.41 0 2.08-.8 3.97-2.1 5.39M11 19.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.22.21-1.79L9 15v1a2 2 0 0 0 2 2m1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2z"></path></svg>
+                                <h3 id="Yolalga3d1d1h3">
+                                    Map a custom domain
+                                </h3>
+                            </div>
+                            <h4 id="Yolalga3d1h4">
+                                Bring your custom domain, and get up and running <br>
+                                within minutes. We issue, and renew SSL cert for you <br> automatically.
+                            </h4>
+                        </div>
+                        <div id="Yolalga3d1">
+                            <div id="Yolalga3d1d1">
+                                <svg id="Yolalga3d1d1img" class="css-f8fru9" viewBox="0 0 320 512"><path d="M296 160H180.6l42.6-129.8C227.2 15 215.7 0 200 0H56C44 0 33.8 8.9 32.2 20.8l-32 240C-1.7 275.2 9.5 288 24 288h118.7L96.6 482.5c-3.6 15.2 8 29.5 23.3 29.5 8.3 0 16.4-4.4 20.8-12l176-304c9.3-15.9-2.2-36-20.7-36zM140.3 436.9l33.5-141.6 9.3-39.4h-150L63 32h125.9l-38.7 118-13.8 42h145.7L140.3 436.9z"></path></svg>
+                                <h3 id="Yolalga3d1d1h3">
+                                     Superfast Next.js Powered Tech Blogs
+                                </h3>
+                            </div>
+                            <h4 id="Yolalga3d1h4">
+                               Hashnod blogs are powered by Next.js, and are <br> served via Vercel's word class CDN. 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+               <!-- Bauchi -->
+            <div class="Bauchi">
+                <div id="Bauchisma">
+                    <div id="Bauchilga1">
+                       <h5 id="Bauchilga1h5">
+                           TESTIMONIALS
+                       </h5>
+                    </div>
+                    <div id="Bauchilga2">
+                          <h2 id="Bauchilga2h2">
+                              Don't just take our word for it,
+                          </h2>
+                    </div>
+                    <div id="Bauchilga3">
+                       <h2 id="Bauchilga3h2">
+                           trust the community!
+                       </h2>
+                    </div>
+
+                    
+                    <div id="Bauchilga4">
+                        <div id="Bauchilga4cont1">
+                            <div id="divbau">
+                                <img id="Bauchilga4cont1img" src="comma.png" alt="">
+                              <q id="Bauchilga4cont1q">
+                                I wanted to use my own domain with Hashnode and <br> wass prepared for all the hassle...and then-literally just <br>
+                                one click and it was done! so easy, so convenient. Go <br> Hashnode!
+                               </q>
+                            </div>
+                            <img id="Bauchisimonimg" src="simon.webp" alt="">
+                            <h4 id="Bauchilga4h4">
+                                Simon Holdorf
+                            </h4>
+                            <h5 id="Bauchilga4h5">
+                                Full-Stack Engineer at SAP, Cloud Advocate - AWS <br> Certified
+                            </h5>
+                        </div>
+                        <div id="Bauchilga4cont2">
+                            <div id="divbau">
+                                <img id="Bauchilga4cont1img" src="comma.png" alt="">
+                              <q id="Bauchilga4cont1q">
+                                I've decided to make a huge leap and migrate my <br> developer blog to Hashnode ! I'm really impressed with <br>
+                                 what they've accomplished in this short amount of time! <br> I'm happy to join this community and I can't wait to <br>
+                                  share more of my learnings on AWS with you!
+                               </q>
+                            </div>
+                            <img id="Bauchisimonimg" src="danny.webp" alt="">
+                            <h4 id="Bauchilga4h4">
+                                Danny Steenman
+                            </h4>
+                            <h5 id="Bauchilga4h5">
+                                AWS Cloud Consultant & AWS APN Ambassador at <br> CloudNation
+                            </h5>
+                        </div>
+                    </div>
+
+
+                    <div id="Bauchilga5">
+                        <div id="Bauchilga5cont1">
+                            <div id="divbau1">
+                                <img id="Bauchilga5cont1img" src="comma.png" alt="">
+                              <q id="Bauchilga5cont1q">
+                                After using Gastby, Ghost, Jekyll and Wordpress I'm <br> going to use Hashnode, I wished to have known this <br>
+                                 amazing project months ago
+                               </q>
+                            </div>
+                            <img id="Bauchirafimg" src="rafeal.webp" alt="">
+                            <h4 id="Bauchilga5h4">
+                                Rafael Corrêa Gomes
+                            </h4>
+                            <h5 id="Bauchilga5h5">
+                                Tecnology Director at Le Site
+                            </h5>
+                        </div>
+                        <div id="Bauchilga5cont2">
+                            <div id="divbau1">
+                                <img id="Bauchilga5cont1img" src="comma.png" alt="">
+                              <q id="Bauchilga5cont1q">
+                                I am killing the blog off my personal site and going full <br> on Hashnode. Reasons: - Personal Domain - Free <br>
+                                 Analytics - Free Newsletter - SEO built in - Constantly <br>
+                                 pushing new features - Community is amazing!
+                               </q>
+                            </div>
+                            <img id="Bauchirafimg" src="corey.webp" alt="">
+                            <h4 id="Bauchilga5h4">
+                                Corey O'Donnell
+                            </h4>
+                            <h5 id="Bauchilga5h5">
+                                Software Engineer at Better.com
+                            </h5>
+                        </div>  
+                    </div>
+
+                  <div id="Bauchilga4">
+                     <div id="Bauchilga4cont1"> 
+                         <div id="divbau">
+                         <img id="Bauchilga4cont1img" src="comma.png" alt="">
+                         <q id="Bauchilga4cont1q">
+                         Hashnode is super developer-friendly. I like it much <br> better than Medium. Being able to write blogs solely <br>
+                         using markdown and auto backup with GitHub is <br> awesome! Goodbye, Medium
+                          </q>
+                         </div>
+                         <img id="Bauchisimonimg" src="Wu.webp" alt="">
+                         <h4 id="Bauchilga4h4">
+                         Qiusheng Wu
+                         </h4>
+                         <h5 id="Bauchilga4h5">
+                         Assistant Professor at the University of Tennessee
+                          </h5>
+                       </div>
+                      <div id="Bauchilga4cont2">
+                         <div id="divbau">
+                          <img id="Bauchilga4cont1img" src="comma.png" alt="">
+                          <q id="Bauchilga4cont1q">
+                         100 days ago, I published my first blog post on a new <br> and unfamiliar platform called Hashnode. Today, <br>
+                         publishing articles on Hashnode is a routine, a hobby, <br> a great joy.
+                         </q>
+                         </div>
+                         <img id="Bauchisimonimg" src="victoria.webp" alt="">
+                          <h4 id="Bauchilga4h4">
+                         Victoria Lo
+                         </h4>
+                          <h5 id="Bauchilga4h5">
+                          Solutions Engineer at PayPal
+                         </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="Buttonbauchi">
+                    Read more testimonials 
+                </button>
+            </div>
+
+                
+              <!-- frist container -->
+            <div class="fristcont">
+                <div class="dpic">
+                   <div>
+                     <img id="fristcomma" src="comma.png" alt="">
+                   </div>
+                   <div>
+                       <img  id="dlars" src="rauch.webp" alt="">
+                   </div>
+                   <q id="quote">
+                      It's amazing to see how fast devs go from 0 to Blog under a domain they own on Hashnode 🤯. It <br> 
+                     reminds me a lot of what Substack did for journalists.
+                   </q>
+                </div>
+                 <div class="modqui">
+                     <h2 id="hfour2">
+                        Guillermo Rauch,
+                     </h>
+                     <strong id="strone">CEO Vercel</strong> 
+                   </div>
+                  <button id="buttonjoin">
+                     join the community
+                  </button>
+            </div>
+
+
+
+             <div class="Kano">
+                <div id="Smallkano">
+                    <div id="Kanolga1">
+                        FROM THE COMMUNITY
+                    </div>
+                    <div id="Kanolga2">
+                        Featured articles today
+                    </div>
+                    <div id="kanolga3">
+                        <div id="kanolga3d1">
+                            <img id="kanolga3img" src="dynamo.webp" alt="">
+                            <div id="kanolga3d1tex">
+                                Full-text search for DynamoDB using <br> Lambda, EFS, Tantivy and Rust.
+                            </div>
+                            <div id="kanolga3d1tex2">
+                                TL;DR; The code for this blog post is <br> available on Github. Background <br> In serverless-land DynamoDB reigns <br>
+                                 supreme for data persistence. It is <br>
+                                 ridiculously fast, easy to use and <br> scales to pretty much an…
+                            </div>
+                            <div id="jakediv">
+                                <img id="jakeimg" src="jake.webp" alt="">
+                                <div id="jakename">
+                                  Jake Scott
+                                </div>
+                            </div>
+                        </div>
+                        <div id="kanolga3d1">
+                            <img id="kanolga3img" src="flutter.webp" alt="">
+                            <div id="kanolga3d1tex">
+                                Flutter: How to implement <br> Cupertino UI (iOS Style), with <br> examples!
+                            </div>
+                            <div id="kanolga3d1tex2">
+                                Hello, folks of the developer <br> community 👋! I'm back with the <br>
+                                 promised article on Flutter 🔥, <br> specifically in the Cupertino UI, or <br>
+                                 you may know it as the iOS-style <br> implementation. For those who <br> aren't…
+                            </div>
+                            <div id="jakediv">
+                                <img id="jakeimg" src="Andreas.webp" alt="">
+                                <div id="jakename">
+                                    Andreas Notokusumo
+                                </div>
+                            </div>
+                        </div>
+                        <div id="kanolga3d1">
+                            <img id="kanolga3img" src="cake.webp" alt="">
+                            <div id="kanolga3d1tex">
+                                The Package Management of <br> Cake 🧁
+                            </div>
+                            <div id="kanolga3d1tex2">
+                                Writing good code is important. <br> Making sure users can run your <br>
+                                 code is just as important, if not <br> more. Think of your source code <br>
+                                 as a cake recipe. It gives you all <br> the instructions to make a tasty <br> des…
+                            </div>
+                            <div id="jakediv">
+                                <img id="jakeimg" src="haren.webp" alt="">
+                                <div id="jakename">
+                                    Haren Samarasinghe
+                                </div>
+                            </div>  
+                        </div>
+
+                    </div>
+
+                    <div id="kanolga3">
+                        <div id="kanolga3d1">
+                            <img id="kanolga3img" src="build.webp" alt="">
+                            <div id="kanolga3d1tex">
+                                How to Build a Web App with Go <br> and SQLite
+                            </div>
+                            <div id="kanolga3d1tex2">
+                                Today we're going to learn how to <br> use SQLite with Go. By the time <br>
+                                 you finish this tutorial, you can <br> build CRUD (Create Read Update <br>
+                                 Delete) applications with Go <br> easily. Go is one of the hottest <br> languag…
+                            </div>
+                            <div id="jakediv">
+                                <img id="jakeimg" src="morgan.webp" alt="">
+                                <div id="jakename">
+                                    Jeremy Morgan
+                                </div>
+                            </div>
+                        </div>
+                        <div id="kanolga3d1">
+                            <img id="kanolga3img" src="epic.webp" alt="">
+                            <div id="kanolga3d1tex">
+                                The Epic Hashnode Writeathon!
+                            </div>
+                            <div id="kanolga3d1tex2">
+                                Calling all the tech writers! When <br> was the last time you read a very <br>
+                                 helpful tutorial, guide, or a piece <br> of programming advice? If <br>
+                                 we encourage you to create such a <br> masterpiece — to write an article <br> t…
+                            </div>
+                            <div id="jakediv">
+                                <img id="jakeimg" src="rahman.webp" alt="">
+                                <div id="jakename">
+                                    Syed Fazle Rahman
+                                </div>
+                            </div>
+                        </div>
+                        <div id="kanolga3d1">
+                            <img id="kanolga3img" src="bulb.webp" alt="">
+                            <div id="kanolga3d1tex">
+                                Feedback: How to Give Great <br> Feedback
+                            </div>
+                            <div id="kanolga3d1tex2">
+                                This is the second part of a three <br> part series on feedback. If you <br> want to learn how to ask for <br>
+                                 constructive, targeted feedback <br> head to the first part here: First <br> Part
+                            </div>
+                            <div id="jakediv">
+                                <img id="jakeimg" src="rachel.webp" alt="">
+                                <div id="jakename">
+                                    Rachel Schipull
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="buttonsee">
+                    See all articles
+                </button>
+            </div>
+
+
+             <!-- frist container -->
+            <div class="fristcont">
+                <div class="dpic">
+                   <div>
+                     <img id="fristcomma" src="comma.png" alt="">
+                   </div>
+                   <div>
+                       <img  id="dlars" src="james.webp" alt="">
+                   </div>
+                   <q id="quote">
+                      Just started out on Hashnode about 1 month ago, and I'm already at 14,000 page views. Really <br>
+                       impressed with how much visibility I've gotten there!
+                   </q>
+                </div>
+                 <div class="modqui">
+                     <h2 id="hfour2">
+                        James Q Quick,
+                     </h>
+                     <strong id="strone">Developer Advocate at PlanetScale</strong> 
+                   </div>
+                  <button id="buttonjoin">
+                     join the community
+                  </button>
+            </div>
+
+
+
+                <!-- OYO -->
+               
+            <div class="Oyo">
+                <div id="Oyolga1">
+                    FOCUS ON WRITING, WHILE WE DO THE REST
+                </div>
+                <div id="Oyolga2">
+                    Features that make tech blogging
+                </div>
+                <div id="Oyolga3">
+                    10x better
+                </div>
+                <div id="Oyolga4">
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img" class="css-9wjfhi" aria-hidden="true" data-icon="circle-bolt" data-prefix="fal" viewBox="0 0 512 512"><path fill="currentColor" d="M336 240H215.8l104.7-100.5c6.375-6.125 6.562-16.25.438-22.62-6.094-6.406-16.22-6.531-22.62-.469l-133.3 128C160.2 248.1 158.7 255.9 161.2 261.1S169.5 272 176 272h120.2L191.5 372.5c-6.375 6.125-6.562 16.25-.438 22.62A16.256 16.256 0 0 0 202.7 400c4 0 7.969-1.484 11.09-4.453l133.3-128c4.688-4.531 6.188-11.45 3.75-17.52S342.5 240 336 240zM256 0C114.6 0 0 114.6 0 256s114.6 256 256 256 256-114.6 256-256S397.4 0 256 0zm0 480C132.5 480 32 379.5 32 256S132.5 32 256 32s224 100.5 224 224-100.5 224-224 224z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Superfast Next.js Powered Blogs
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            Hashnode blogs are powered by Next.js, and are served <br> via Vercel's word class CDN.
+                        </div>
+                    </div>
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img"  class="css-9wjfhi" aria-hidden="true" data-icon="folder-arrow-down" data-prefix="fal" viewBox="0 0 512 512"><path fill="currentColor" d="M448 96H272l-45.3-45.25C214.7 38.74 198.5 32 181.5 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h384c35.35 0 64-28.65 64-64V160c0-35.3-28.7-64-64-64zm32 320c0 17.64-14.36 32-32 32H64c-17.64 0-32-14.36-32-32V96c0-17.64 14.36-32 32-32h117.5c8.549 0 16.58 3.328 22.63 9.375L258.7 128H448c17.64 0 32 14.36 32 32v256zm-235.3-36.7c6.25 6.25 16.38 6.25 22.62 0l80-80c6.25-6.25 6.25-16.38 0-22.62s-16.38-6.25-22.62 0L272 329.4V208c0-8.8-7.2-16-16-16s-16 7.2-16 16v121.4l-52.7-52.7c-3.1-3.1-7.2-4.7-11.3-4.7s-8.2 1.6-11.3 4.7c-6.25 6.25-6.25 16.38 0 22.62l80 79.98z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Own your data
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            You retain all the rights to your content. Export and <br>
+                             download all your posts from your dashboard with <br> a single click.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Oyolga4">
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img" class="css-9wjfhi" aria-hidden="true" data-icon="pen-ruler" data-prefix="fal" viewBox="0 0 512 512"><path fill="currentColor" d="m493.2 56.26-37.51-37.51C443.19 6.25 426.81 0 410.43 0s-32.76 6.248-45.26 18.75L34.46 349.5l-8.752 16.35-25.4 126.1C-1.717 502.1 6.143 512 15.93 512c1.047 0 2.115-.104 3.197-.32l126.1-25.4 16.35-8.75L493.3 146.7c25-25 24.9-65.44-.1-90.44zm-350 395.34-7.996 4.279-98.78 19.76 19.75-98.79 4.279-7.998 254.9-254.9 82.76 82.76L143.2 451.6zm327.4-327.5-49.93 49.93-82.77-82.77 49.93-49.93c6.07-6 14.07-9.33 22.67-9.33 8.547 0 16.58 3.328 22.63 9.373L470.6 78.89c6.1 6.04 9.4 14.08 9.4 22.61 0 8.6-3.3 16.6-9.4 22.6zM101.5 237.3l22.6-22.7-87.41-87.4c-6.238-6.238-6.238-16.39 0-22.63l67.88-67.88c6.238-6.238 16.39-6.238 22.63 0l33.94 33.94-45.34 45.27c-6.254 6.254-6.214 16.4.04 22.66s16.37 6.254 22.63 0l45.25-45.26 30.88 30.8 22.63-22.63-87.43-87.41c-18.75-18.75-49.14-18.75-67.88 0L14.06 81.94c-18.74 18.74-18.74 49.14 0 67.88l87.44 87.48zm309 37.5-22.6 22.6 30.86 30.86-45.26 45.25c-6.254 6.254-6.254 16.37 0 22.63 6.252 6.254 16.42 6.302 22.68.048l45.21-45.3 33.94 33.94c6.238 6.238 6.236 16.39-.002 22.63l-67.88 67.88c-6.238 6.238-16.39 6.238-22.63 0l-87.42-87.43-22.63 22.62 87.43 87.43c18.74 18.74 49.14 18.74 67.88 0l67.88-67.88c18.75-18.74 18.75-49.14.002-67.88L410.5 274.8z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Customize Design using CSS
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            Modify the appearance of your developer blog using our <br>
+                             Custom CSS feature. Change the font family, font size, <br> primary link colors, and more.
+                        </div>
+                    </div>
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img" class="css-9wjfhi" aria-hidden="true" data-icon="envelope-open-text" data-prefix="fal" viewBox="0 0 512 512"><path fill="currentColor" d="M496 192c-8.8 0-16 7.2-16 16v256c0 8.836-7.164 16-16 16H48c-8.84 0-16-7.2-16-16V208c0-8.8-7.16-16-16-16s-16 7.2-16 16v256c0 26.5 21.49 48 48 48h416c26.51 0 48-21.49 48-47.1V208c0-8.8-7.2-16-16-16zM64.88 276.3c.28 1 .55 2 1 2.9.435.863 1.012 1.605 1.607 2.385.695.91 1.393 1.75 2.264 2.49.295.25.443.604.76.836l132.8 97.72C218.7 393.1 236.9 399.1 256 399.1s37.3-6.023 52.7-17.4l132.8-97.72c.316-.232.465-.586.76-.836.87-.74 1.568-1.58 2.264-2.49.595-.78 1.172-1.52 1.607-2.385.457-.898.726-1.84 1.01-2.826.302-1.06.558-2.078.64-3.176.019.533.219.133.219-.267V48c0-26.47-21.5-48-48-48H112C85.53 0 64 21.53 64 48v224c0 .412.203.758.234 1.162.086 1.138.336 2.138.646 3.138zM96 48c0-8.81 7.2-16 16-16h288c8.8 0 16 7.19 16 16v215.9l-126.3 92.92c-19.78 14.62-47.64 14.62-67.45 0L96 263.9V48zm256 191.1c0-8.838-7.164-16-16-16H176c-8.836 0-16 7.162-16 16 0 8.836 7.164 15.1 16 15.1h160c8.8.9 16-5.4 16-15.1zm-176-80h160c8.836 0 16-7.164 16-15.1 0-8.838-7.164-15.1-16-15.1H176c-8.836 0-16 7.162-16 15.1 0 8.8 7.2 15.1 16 15.1z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Free built-in newsletter service
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            Enable a newsletter service with the click of a button, <br>
+                             and let your readers easily subscribe to your developer <br> blog.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Oyolga4">
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img" viewBox="0 0 640 512" class="css-9wjfhi"><path d="M160 320c53.02 0 96-42.98 96-96s-42.98-96-96-96c-53.9 0-96 42.1-96 96 0 53 42.1 96 96 96zm0-160c35.29 0 64 28.71 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zM592 0H208c-26.5 0-48 21.53-48 48v32c0 8.84 7.2 16 16 16s16-7.16 16-16V48c0-8.81 7.2-16 16-16h384c8.8 0 16 7.19 16 16v320c0 8.812-7.172 16-16 16H352c-8.844 0-16 7.156-16 16s7.2 16 16 16h240c26.5 0 48-21.5 48-48V48c0-26.47-21.5-48-48-48zM192 352h-64C57.31 352 0 409.31 0 480c0 17.67 14.33 32 32 32h256c17.67 0 32-14.33 32-32 0-70.7-57.3-128-128-128zM32 480c0-52.94 43.07-96 96-96h64c52.94 0 96 43.06 96 96H32zm283.3-315.3c-6.25-6.25-16.38-6.25-22.62 0s-6.25 16.38 0 22.62l80 80C375.8 270.4 379.9 272 384 272s8.188-1.562 11.31-4.688L496 166.6V224c0 8.844 7.156 16 16 16s16-7.156 16-16v-96c0-8.844-7.156-16-16-16h-96c-8.844 0-16 7.156-16 16s7.156 16 16 16h57.38L384 233.4l-68.7-68.7z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Built-in Analytics
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            Powerful analytics to track the number of views, likes, <br>
+                             and comments, and analyze the performance of your <br> articles over a period of time.
+                        </div>
+                    </div>
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img" class="css-9wjfhi" aria-hidden="true" data-icon="layer-group" data-prefix="fal" viewBox="0 0 512 512"><path fill="currentColor" d="m9.219 142.5 240 112c2.156 1 4.448 1.499 6.76 1.499s4.646-.499 6.802-1.499l240-112c5.619-2.6 9.219-8.3 9.219-15.4s-3.594-11.87-9.219-14.5l-240-112c-4.312-2-9.25-2-13.56 0l-240 112C3.594 116.1 0 121.8 0 127.1s3.594 12.8 9.219 15.4zM256 33.66 458.2 128 256 222.3 53.84 128 256 33.66zM502.8 241.5l-68.56-32c-8.031-3.703-17.53-.297-21.28 7.734-3.75 8-.281 17.53 7.719 21.27L458.2 256 256 350.3 53.84 256l37.5-17.5c8-3.734 11.47-13.27 7.719-21.27-3.749-8.03-13.309-11.43-21.279-7.73l-68.56 32C3.594 244.1 0 249.9 0 256.1c0 6.2 3.594 11.8 9.219 14.4l240 112c2.156 1 4.448 1.572 6.76 1.572s4.646-.572 6.802-1.572l240-112c5.619-2.6 9.219-8.2 9.219-14.4 0-6.2-3.6-12-9.2-14.6zm0 128-68.56-32c-8.031-3.688-17.53-.281-21.28 7.734-3.75 8-.281 17.53 7.719 21.27L458.2 384 256 478.3 53.84 384l37.5-17.5c8-3.734 11.47-13.27 7.719-21.27-3.75-8.016-13.31-11.42-21.28-7.734l-68.56 32C3.594 372.1 0 377.8 0 384s3.594 11.83 9.219 14.46l240 112C251.4 511.5 253.7 512 255.1 512s4.646-.5 6.802-1.5l240-112C508.4 395.9 512 390.3 512 384s-3.6-11.9-9.2-14.5z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Article Series
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            Series is a great way to organize your content. It helps <br>
+                             you easily group a series of articles related to a single <br> topic.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Oyolga4">
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img" class="css-9wjfhi" viewBox="0 0 384 512"><path fill="currentColor" d="M365.3 125.3 258.8 18.8C246.7 6.742 230.5 0 213.5 0H64C28.65 0 0 28.65 0 64l.006 384c0 35.35 28.65 64 64 64H320c35.35 0 64-28.65 64-64V170.5c0-17-6.7-33.2-18.7-45.2zM224 34.08c4.477 1.566 8.666 3.846 12.12 7.299l106.5 106.5c3.48 3.421 5.78 7.621 7.28 12.121H240c-8.8 0-16-7.2-16-16V34.08zM352 448c0 17.64-14.36 32-32 32H64c-17.64 0-32-14.36-32-32V64c0-17.64 14.36-32 32-32h128v112c0 26.5 21.5 48 48 48h112v256zM96.82 360.1a15.883 15.883 0 0 0-4.342 8.113l-12.16 60.79c-2.217 11.11 7.574 20.91 18.69 18.68l60.79-12.15a15.867 15.867 0 0 0 8.109-4.344l122.2-122.2c7.559-7.555 12.82-17.37 13.76-28.02 1.158-13.14-3.432-25.7-12.62-34.88l-8.172-8.176c-7.559-7.559-17.37-12.83-28.01-13.78-13.14-1.172-25.7 3.414-34.89 12.59L96.82 360.1zm51.98 45.2-32.72 6.539 6.543-32.71 86.22-86.23 26.18 26.18L148.8 405.3zm93.8-146.1c4.652-4.645 12.19-4.652 16.84.004l9.338 9.336c4.641 4.64 4.668 12.18-.004 16.84l-11.22 11.22-26.18-26.18L242.6 259.2z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Drafts
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            Share your drafts with your friends to get some early <br>
+                             feedback before you hit the publish button.
+                        </div>
+                    </div>
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg  id="Oyolga4img" class="css-9wjfhi" viewBox="0 0 512 512"><path d="M504 88v112a16 16 0 01-32 0V88a16.018 16.018 0 00-16-16H56a16.018 16.018 0 00-16 16v48h400a16 16 0 010 32H40v32a16 16 0 01-32 0V88a48.055 48.055 0 0148-48h400a48.055 48.055 0 0148 48zm-16 290a16 16 0 00-16 16v30a16.018 16.018 0 01-16 16H56a16.018 16.018 0 01-16-16v-30a16 16 0 00-32 0v30a48.055 48.055 0 0048 48h400a48.055 48.055 0 0048-48v-30a16 16 0 00-16-16zM45 236.155a16 16 0 00-16 16v89.69a16 16 0 0032 0V313h14v28.845a16 16 0 0032 0v-89.69a16 16 0 10-32 0V281H61v-28.845a16 16 0 00-16-16zM162 358a16 16 0 0016-16v-74h8a16 16 0 000-32h-48a16 16 0 000 32h8v74a16 16 0 0016 16zm164.311-.155a16 16 0 01-16-16v-89.69a16 16 0 0116-16h18.2a44.727 44.727 0 0144.676 44.677c0 25.158-18.852 45.358-46.878 45.358v15.655a16 16 0 01-15.998 16zm18.2-89.69h-2.2v26.035h2.2c6.482 0 12.676-4.948 12.676-13.358a12.691 12.691 0 00-12.674-12.677zm100.189 57.69H421a16 16 0 000 32h23.7A38.338 38.338 0 00483 319.3c0-19.727-15.3-38.3-39.7-38.3a6.424 6.424 0 010-12.845H467a16 16 0 100-32h-23.7A38.338 38.338 0 00405 274.7c0 19.727 15.3 38.3 39.7 38.3a6.424 6.424 0 010 12.845zM256 358a16 16 0 0016-16v-74h8a16 16 0 000-32h-48a16 16 0 000 32h8v74a16 16 0 0016 16zM68.87 88.31a16 16 0 004.7 31.61c22.038-2.12 17.176-35.811-4.7-31.61zm45.01.92c-13.012 5.42-13.239 24.018 0 29.54a15.967 15.967 0 0019.42-5.89c8.852-13.122-4.982-29.665-19.42-23.65zm40.82 5.89a16.019 16.019 0 004.42 22.18c11.561 7.8 27.311-2.192 24.57-16.43a16.007 16.007 0 00-28.99-5.75z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                HTTPS by default
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            It doesn't matter if you are using our free subdomain or a <br>
+                             custom one. We provide SSL certificates for free for all <br> the blogs.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Oyolga4">
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img" class="css-9wjfhi" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Native GitHub Integration
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            Publish and backup articles directly on a private or public <br>
+                             GitHub repo - enabling you to always have control over <br> your content.
+                        </div>
+                    </div>
+                    <div id="Oyolga4d">
+                        <div id="Oyolga4d1">
+                            <svg id="Oyolga4img" class="css-wszoyc" viewBox="0 0 640 512"><path d="M274.7 304H173.3C77.57 304 0 381.6 0 477.3 0 496.5 15.52 512 34.66 512H413.3c19.2 0 34.7-15.5 34.7-34.7 0-95.7-77.6-173.3-173.3-173.3zm138.6 176H34.66c-1.46 0-2.66-1.2-2.66-2.7C32 399.4 95.4 336 173.3 336h101.4c77.9 0 141.3 63.4 141.3 141.3 0 1.5-1.2 2.7-2.7 2.7zM224 256c70.7 0 128-57.31 128-128S294.7 0 224 0 96 57.31 96 128s57.3 128 128 128zm0-224c52.94 0 96 43.06 96 96 0 52.93-43.06 96-96 96s-96-43.1-96-96c0-52.94 43.1-96 96-96zm151.1 209c17.8 9.8 37.2 15 56.9 15 61.8 0 112-50.2 112-112S493.8 32 432 32c-12.83 0-25.39 2.156-37.34 6.391-8.328 2.953-12.69 12.09-9.734 20.42 2.953 8.344 12.12 12.66 20.42 9.734C413.9 65.53 422.8 64 432 64c44.1 0 80 35.89 80 80s-35.9 80-80 80c-14.08 0-27.91-3.703-39.98-10.69-7.656-4.453-17.44-1.828-21.86 5.828C365.7 226.8 368.3 236.6 375.1 241zm115.6 79H448c-8.844 0-16 7.156-16 16s7.2 16 16 16h42.67C555.4 352 608 404.6 608 469.3c0 5.9-4.8 10.7-10.7 10.7H496c-8.844 0-16 7.156-16 16s7.156 16 16 16h101.3c23.6 0 42.7-19.1 42.7-42.7 0-83.2-67-149.3-149.3-149.3z"></path></svg>
+                            <div id="Oyolga4imgd">
+                                Unlimited Staff Users
+                            </div>
+                        </div>
+                        <div id="Oyolga4d2">
+                            Invite your editorial team and let multiple authors publish <br> articles on the same blog.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+              <!-- LAGOS -->
+
+            <div class="Lagos">
+                <div id="lagoslga1">
+                    <div id="lagnew">
+                        NEW ✨
+                    </div> 
+                    <div id="lagon">
+                       ONBOARD YOUR EDITORIAL TEAM
+                    </div>
+                </div>
+                <div class="lagoslga2">
+                    <div id="lagoslga2d1">
+                        Introducing
+                    </div>
+                    <div id="lagoslga2d2">
+                        Hashnode for Teams
+                    </div>
+                </div>
+                <div id="lagoslga3">
+                    Hassle-free blogs for fast growing teams
+                </div>
+                <div id="dbuttonlea">
+                    <button id="buttonlea">
+                        Learn more  
+                        <i id="chevron" class="fa-solid fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+
+
+             <!-- KD -->
+            <div class="kd">
+                <div id="kdbig">
+                   <div id="kdlga1">
+                       Join the dev community of over a million <br> active developers.
+                   </div>
+                    <div id="kdlga2">
+                         Over 100,000 tech blogs and growing. Be part of an active community of <br>
+                         developers, tech enthusiasts and creators. Blog on a personal domain, share <br> ideas, and connect with the global tech community.
+                    </div>
+                    <div>
+                        <button id="buttonstar">
+                           Get started - it's free
+                        </button>
+                        <button id="buttonlog">
+                            Login
+                        </button>
+                    </div>
+                </div>
+                <div id="kdsmall">
+                    <img id="mapdv" src="map.webp" alt="">
+                </div>
+            </div>
+
+
+             <div class="ogun">
+                <div id="smallogun">
+                    <div id="ogunlga1">
+                        <div id="ogunlga1d1">
+                            <div id="ogunb">Explore</div>
+                            <div id="ogundv">
+                                Feed <br> Trending Blogs <br> Tags <br> Search <br> Hashnode for Teams <br> Hashnode APIs
+                            </div>
+                        </div>
+                        <div id="ogunlga1d1">
+                            <div id="ogunb">Company</div>
+                            <div id="ogundv">
+                                About Hashnode <br> Careers <br> Logos & Media <br> Changelog
+                            </div>
+                        </div>
+                        <div id="ogunlga1d1">
+                            <div id="ogunb">Comparisons</div>
+                            <div id="ogundv">
+                                Hashnode vs Medium <br> Hashnode vs Ghost <br> Hashnode vs WordPress <br> Hashnode vs Dev.to
+                            </div>
+                        </div>
+                        <div id="ogunlga1d1">
+                            <div id="ogunb">Support</div>
+                            <div id="ogundv">
+                                Support Docs <br> Contact <br> Join Discord <br> Feature Requests
+                            </div>
+                        </div>
+                        <div id="ogunlga1d1">
+                            <div id="ogunb">Official Blogs</div>
+                            <div id="ogundv">
+                                Hashnode Townhall <br> Web3 Blog <br> Web3 Glossary <br> AWS Blog <br> Toolbox Blog
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ogunlga2">
+                        © Hashnode 2022
+                    </div>
+                    <div id="ogunlga3">
+                        Privacy Policy &nbsp; &nbsp;  &nbsp;   Terms  &nbsp; &nbsp; &nbsp;  Code of Conduct
+                    </div>
+                    <div id="ogunlga4">
+                        <div>
+                            <img id="logbt" src="data:image/png;base64,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" data-deferred="1" elementtiming="smtr" class="rg_i Q4LuWd" jsname="Q4LuWd" width="180" height="180" alt="Hashnode Brand Resources - Logos and other media files" data-atf="true" data-iml="1741.5">
+                        </div>
+                        <div class="hashlg">
+                            hashnode
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+        </section>
+        
+    </main>
+    
+</body>
+</html>
